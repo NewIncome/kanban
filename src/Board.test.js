@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Board from './Board';
+import Board from './Components/Board';
 
 test('renders learn react link', () => {
   render(<Board />);
