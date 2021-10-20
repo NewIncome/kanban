@@ -73,3 +73,39 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+<!--  PLANNING
+
+// to implement: Categories(dropDown): Work, Personal, House/Chores, Social/Fun
+// to implement: This Week(dropDown): Month, another week, anoter Month
+> Base Categories to View
+List All | Due | Upcoming | This Week |	Done		(5), (all:8)
+						/			  \
+				| Fresh | Doing | Done |
+
+> Filters:
+  -All, -Date(past, thisWeeks, nextWeeks+),
+  -ThisWeeks(status: done, doing, blanc)
+  -All+Done
+
+> Store
+  -store=[{},{},...]; each {} is a task
+  -each Ta, has the following properties/keys: name, details, date, status,
+> Basic demo store info
+	[
+	  {
+	    name: '',
+	    details: '',
+	    status: 'blanc',
+	    dateCreated: '',
+	    dateDue: '',
+	    date2work: '',
+	  },
+	]
+> Components + Props
+  -Board(base) > Props: store	=> = it's state
+  -Column s > Props: title:'', tasks:[{},...]	=> = it's state
+  -Task s > Props: ...details...	=> = it's state
+
+ -->
